@@ -1,0 +1,11 @@
+{
+  "name": "@dbasics/pecinhas",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pecinhas reutilizaveis dos projetos dbasics",
+  "exports": {
+    "./formatters-br": "./formatters-br/index.js"
+  },
+  "author": "dbasics",
+  "license": "MIT"
+}
