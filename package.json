@@ -4,7 +4,19 @@
   "type": "module",
   "description": "Pecinhas reutilizaveis dos projetos dbasics",
   "exports": {
-    "./formatters-br": "./formatters-br/index.js"
+    "./formatters-br": "./formatters-br/index.js",
+    "./supabase-client": "./supabase-client/index.js",
+    "./toast": "./toast/index.js",
+    "./modal": "./modal/index.js",
+    "./use-supabase-auth": "./use-supabase-auth/index.js"
+  },
+  "peerDependencies": {
+    "@supabase/supabase-js": ">=2.0.0",
+    "react": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@supabase/supabase-js": { "optional": true },
+    "react": { "optional": true }
   },
   "author": "dbasics",
   "license": "MIT"
