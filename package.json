@@ -8,7 +8,11 @@
     "./supabase-client": "./supabase-client/index.js",
     "./toast": "./toast/index.js",
     "./modal": "./modal/index.js",
-    "./use-supabase-auth": "./use-supabase-auth/index.js"
+    "./use-supabase-auth": "./use-supabase-auth/index.js",
+    "./supabase-crud": "./supabase-crud/index.js",
+    "./use-app-state": "./use-app-state/index.js",
+    "./download-csv": "./download-csv/index.js",
+    "./whatsapp-float": "./whatsapp-float/index.js"
   },
   "peerDependencies": {
     "@supabase/supabase-js": ">=2.0.0",

@@ -17,6 +17,15 @@ Cada pasta na raiz e uma "pecinha" (mini-biblioteca).
 - **toast** - pub/sub de notificacoes (showToast, subscribeToast, dismissToast). Framework-agnostico
 - **modal** - useModal() hook React com a11y (ESC, focus trap, scroll lock, restaura foco). Requer react
 - **use-supabase-auth** - useAuth() hook React para login/logout/reset. Suporta fetchUserData para roles. Requer react + @supabase/supabase-js
+- **supabase-crud** - CRUD generico (getCollection, createDocument, updateDocument, deleteDocument, upsertDocument, batch). Requer @supabase/supabase-js
+- **use-app-state** - createAppStore() factory: Context + useReducer + hooks (useSetState, useBulkSetState). Requer react
+- **download-csv** - downloadCSV() exporta array para CSV compativel com Excel BR (BOM + ;)
+- **whatsapp-float** - buildWhatsAppUrl() + useWhatsAppFloat() hook com scroll/delay. Requer react
+
+## Templates (copiar, nao importar)
+
+- **templates/vercel.json** - headers de seguranca + SPA rewrite + cache de assets
+- **templates/variables.css** - design tokens tema violet (cores, spacing, shadows, z-index)
 
 ## Regras
 
