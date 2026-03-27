@@ -26,6 +26,7 @@ Cada pasta na raiz e uma "pecinha" (mini-biblioteca).
 
 - **templates/vercel.json** - headers de seguranca + SPA rewrite + cache de assets
 - **templates/variables.css** - design tokens tema violet (cores, spacing, shadows, z-index)
+- **templates/react-grab.md** - setup React Grab (dev tool visual) para Vite + React
 
 ## Regras
 
