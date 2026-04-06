@@ -61,6 +61,11 @@ export function useAuth(supabase, options = {}) {
               onSignIn?.(userData)
             }, 0)
           }
+        } else if (event === 'INITIAL_SESSION') {
+          // Sessão inexistente: terminamos de checar, ainda não logado.
+          // Sem este branch, loading ficaria true para sempre e ProtectedRoute
+          // nunca redirecionaria pro /login.
+          setState({ user: null, loading: false })
         } else if (event === 'SIGNED_OUT') {
           initializedRef.current = false
           setState({ user: null, loading: false })
